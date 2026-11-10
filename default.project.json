@@ -1,0 +1,26 @@
+{
+  "name": "TrampolinePlace",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "TrampolineConfig": {
+        "$path": "src/shared/TrampolineConfig.lua"
+      }
+    },
+    "ServerScriptService": {
+      "TrampolineServer": {
+        "$path": "src/server/TrampolineServer.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "TrampolineBounce": {
+          "$path": "src/client/TrampolineBounce.client.lua"
+        },
+        "JumpPowerHUD": {
+          "$path": "src/client/JumpPowerHUD.client.lua"
+        }
+      }
+    }
+  }
+}
